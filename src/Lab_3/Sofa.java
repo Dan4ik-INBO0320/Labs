@@ -21,4 +21,5 @@ public class Sofa extends Furniture {
     public void displayInfo() {
         System.out.println("Диван       Высота: " + getHeith() + ", ширина: " + getWidth() + ", цвет: " + colour);
     }
+
 }

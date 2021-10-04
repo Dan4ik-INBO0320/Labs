@@ -23,7 +23,10 @@ public class FurnitureShopTest {
             System.out.print("\nВведите 1, если хотите сдалать покупку, или 0, если хотите выйти: ");
             k = scan.nextShort();
 
-            if (k == 0) break;
+            if (k == 0) {
+                System.out.println("Приходите ещё!");
+                break;
+            }
 
             else if (k == 1) shop1.buy();
 

@@ -9,6 +9,13 @@ public class Circle {
     private double length;
     private String color;
 
+    public Circle() {
+    }
+
+    public Circle(String color) {
+        this.color = color;
+    }
+
     public Circle(double r, String c)  {
         radius = r;
         length = 2 * r * Math.PI;

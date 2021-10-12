@@ -13,9 +13,6 @@ public class TestClass {
         Car c1 = new Car(25000, "BMW");
         System.out.print("Цена машины марки " + c1.getBrand() + ": " + c1.getPrice());
 
-
-
-
     }
 
 }

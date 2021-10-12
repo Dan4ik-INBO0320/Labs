@@ -4,8 +4,7 @@ public class Book implements Priceable {
 
     private double price;
 
-    public Book() {
-    }
+    public Book() {}
 
     public Book(double price) {
         this.price = price;

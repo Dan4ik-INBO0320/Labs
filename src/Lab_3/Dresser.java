@@ -19,6 +19,6 @@ public class Dresser extends Furniture {
 
     @Override
     public void displayInfo() {
-        System.out.println("Шкаф        Высота: " + getHeith() + ", ширина: " + getWidth() + ", отсеков: " + cell);
+        System.out.println("Шкаф        Высота: " + getHeith() + ", ширина: " + getWidth() + ", отсеков: " + getCell());
     }
 }

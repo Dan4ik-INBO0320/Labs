@@ -27,7 +27,7 @@ public class Animation extends JFrame {
         super("Animation");
 
         setLayout(new GridLayout());
-        setSize(610,470);
+        setSize(615,465);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
@@ -38,23 +38,23 @@ public class Animation extends JFrame {
         grid.add(label1);
         getContentPane().add(grid);
         revalidate();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         grid.add(label2);
         getContentPane().add(grid);
         revalidate();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         grid.add(label3);
         getContentPane().add(grid);
         revalidate();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         grid.add(label4);
         getContentPane().add(grid);
         revalidate();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         grid.add(label5);
         getContentPane().add(grid);
         revalidate();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         grid.add(label6);
         getContentPane().add(grid);
         revalidate();
